@@ -1,0 +1,275 @@
+Frame 1: 213 bytes on wire (1704 bits), 213 bytes captured (1704 bits)
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Jan  1, 1970 08:00:08.340933000 CST
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 8.340933000 seconds
+    [Time delta from previous captured frame: 0.000000000 seconds]
+    [Time delta from previous displayed frame: 0.000000000 seconds]
+    [Time since reference or first frame: 0.000000000 seconds]
+    Frame Number: 1
+    Frame Length: 213 bytes (1704 bits)
+    Capture Length: 213 bytes (1704 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:udp:ssdp]
+Ethernet II, Src: Tp-LinkT_3b:92:73 (d0:37:45:3b:92:73), Dst: IPv4mcast_7f:ff:fa (01:00:5e:7f:ff:fa)
+    Destination: IPv4mcast_7f:ff:fa (01:00:5e:7f:ff:fa)
+        Address: IPv4mcast_7f:ff:fa (01:00:5e:7f:ff:fa)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...1 .... .... .... .... = IG bit: Group address (multicast/broadcast)
+    Source: Tp-LinkT_3b:92:73 (d0:37:45:3b:92:73)
+        Address: Tp-LinkT_3b:92:73 (d0:37:45:3b:92:73)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 10.1.1.12, Dst: 239.255.255.250
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+        0000 00.. = Differentiated Services Codepoint: Default (0)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 199
+    Identification: 0x63b4 (25524)
+    Flags: 0x4000, Don't fragment
+        0... .... .... .... = Reserved bit: Not set
+        .1.. .... .... .... = Don't fragment: Set
+        ..0. .... .... .... = More fragments: Not set
+        ...0 0000 0000 0000 = Fragment offset: 0
+    Time to live: 1
+    Protocol: UDP (17)
+    Header checksum: 0x1a6b [validation disabled]
+    [Header checksum status: Unverified]
+    Source: 10.1.1.12
+    Destination: 239.255.255.250
+User Datagram Protocol, Src Port: 50433, Dst Port: 1900
+    Source Port: 50433
+    Destination Port: 1900
+    Length: 179
+    Checksum: 0xfbcb [unverified]
+    [Checksum Status: Unverified]
+    [Stream index: 0]
+Simple Service Discovery Protocol
+    M-SEARCH * HTTP/1.1\r\n
+        [Expert Info (Chat/Sequence): M-SEARCH * HTTP/1.1\r\n]
+            [M-SEARCH * HTTP/1.1\r\n]
+            [Severity level: Chat]
+            [Group: Sequence]
+        Request Method: M-SEARCH
+        Request URI: *
+        Request Version: HTTP/1.1
+    HOST: 239.255.255.250:1900\r\n
+    MAN: "ssdp:discover"\r\n
+    MX: 1\r\n
+    ST: urn:dial-multiscreen-org:service:dial:1\r\n
+    USER-AGENT: Google Chrome/86.0.4240.75 Linux\r\n
+    \r\n
+    [Full request URI: http://239.255.255.250:1900*]
+    [HTTP request 1/1]
+
+Frame 2: 213 bytes on wire (1704 bits), 213 bytes captured (1704 bits)
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Jan  1, 1970 08:00:09.341502000 CST
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 9.341502000 seconds
+    [Time delta from previous captured frame: 1.000569000 seconds]
+    [Time delta from previous displayed frame: 1.000569000 seconds]
+    [Time since reference or first frame: 1.000569000 seconds]
+    Frame Number: 2
+    Frame Length: 213 bytes (1704 bits)
+    Capture Length: 213 bytes (1704 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:udp:ssdp]
+Ethernet II, Src: Tp-LinkT_3b:92:73 (d0:37:45:3b:92:73), Dst: IPv4mcast_7f:ff:fa (01:00:5e:7f:ff:fa)
+    Destination: IPv4mcast_7f:ff:fa (01:00:5e:7f:ff:fa)
+        Address: IPv4mcast_7f:ff:fa (01:00:5e:7f:ff:fa)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...1 .... .... .... .... = IG bit: Group address (multicast/broadcast)
+    Source: Tp-LinkT_3b:92:73 (d0:37:45:3b:92:73)
+        Address: Tp-LinkT_3b:92:73 (d0:37:45:3b:92:73)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 10.1.1.12, Dst: 239.255.255.250
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+        0000 00.. = Differentiated Services Codepoint: Default (0)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 199
+    Identification: 0x6497 (25751)
+    Flags: 0x4000, Don't fragment
+        0... .... .... .... = Reserved bit: Not set
+        .1.. .... .... .... = Don't fragment: Set
+        ..0. .... .... .... = More fragments: Not set
+        ...0 0000 0000 0000 = Fragment offset: 0
+    Time to live: 1
+    Protocol: UDP (17)
+    Header checksum: 0x1988 [validation disabled]
+    [Header checksum status: Unverified]
+    Source: 10.1.1.12
+    Destination: 239.255.255.250
+User Datagram Protocol, Src Port: 50433, Dst Port: 1900
+    Source Port: 50433
+    Destination Port: 1900
+    Length: 179
+    Checksum: 0xfbcb [unverified]
+    [Checksum Status: Unverified]
+    [Stream index: 0]
+Simple Service Discovery Protocol
+    M-SEARCH * HTTP/1.1\r\n
+        [Expert Info (Chat/Sequence): M-SEARCH * HTTP/1.1\r\n]
+            [M-SEARCH * HTTP/1.1\r\n]
+            [Severity level: Chat]
+            [Group: Sequence]
+        Request Method: M-SEARCH
+        Request URI: *
+        Request Version: HTTP/1.1
+    HOST: 239.255.255.250:1900\r\n
+    MAN: "ssdp:discover"\r\n
+    MX: 1\r\n
+    ST: urn:dial-multiscreen-org:service:dial:1\r\n
+    USER-AGENT: Google Chrome/86.0.4240.75 Linux\r\n
+    \r\n
+    [Full request URI: http://239.255.255.250:1900*]
+    [HTTP request 2/2]
+    [Prev request in frame: 1]
+
+Frame 3: 213 bytes on wire (1704 bits), 213 bytes captured (1704 bits)
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Jan  1, 1970 08:00:10.342174000 CST
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 10.342174000 seconds
+    [Time delta from previous captured frame: 1.000672000 seconds]
+    [Time delta from previous displayed frame: 1.000672000 seconds]
+    [Time since reference or first frame: 2.001241000 seconds]
+    Frame Number: 3
+    Frame Length: 213 bytes (1704 bits)
+    Capture Length: 213 bytes (1704 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:udp:ssdp]
+Ethernet II, Src: Tp-LinkT_3b:92:73 (d0:37:45:3b:92:73), Dst: IPv4mcast_7f:ff:fa (01:00:5e:7f:ff:fa)
+    Destination: IPv4mcast_7f:ff:fa (01:00:5e:7f:ff:fa)
+        Address: IPv4mcast_7f:ff:fa (01:00:5e:7f:ff:fa)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...1 .... .... .... .... = IG bit: Group address (multicast/broadcast)
+    Source: Tp-LinkT_3b:92:73 (d0:37:45:3b:92:73)
+        Address: Tp-LinkT_3b:92:73 (d0:37:45:3b:92:73)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 10.1.1.12, Dst: 239.255.255.250
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+        0000 00.. = Differentiated Services Codepoint: Default (0)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 199
+    Identification: 0x6502 (25858)
+    Flags: 0x4000, Don't fragment
+        0... .... .... .... = Reserved bit: Not set
+        .1.. .... .... .... = Don't fragment: Set
+        ..0. .... .... .... = More fragments: Not set
+        ...0 0000 0000 0000 = Fragment offset: 0
+    Time to live: 1
+    Protocol: UDP (17)
+    Header checksum: 0x191d [validation disabled]
+    [Header checksum status: Unverified]
+    Source: 10.1.1.12
+    Destination: 239.255.255.250
+User Datagram Protocol, Src Port: 50433, Dst Port: 1900
+    Source Port: 50433
+    Destination Port: 1900
+    Length: 179
+    Checksum: 0xfbcb [unverified]
+    [Checksum Status: Unverified]
+    [Stream index: 0]
+Simple Service Discovery Protocol
+    M-SEARCH * HTTP/1.1\r\n
+        [Expert Info (Chat/Sequence): M-SEARCH * HTTP/1.1\r\n]
+            [M-SEARCH * HTTP/1.1\r\n]
+            [Severity level: Chat]
+            [Group: Sequence]
+        Request Method: M-SEARCH
+        Request URI: *
+        Request Version: HTTP/1.1
+    HOST: 239.255.255.250:1900\r\n
+    MAN: "ssdp:discover"\r\n
+    MX: 1\r\n
+    ST: urn:dial-multiscreen-org:service:dial:1\r\n
+    USER-AGENT: Google Chrome/86.0.4240.75 Linux\r\n
+    \r\n
+    [Full request URI: http://239.255.255.250:1900*]
+    [HTTP request 3/3]
+    [Prev request in frame: 2]
+
+Frame 4: 213 bytes on wire (1704 bits), 213 bytes captured (1704 bits)
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Jan  1, 1970 08:00:11.343325000 CST
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 11.343325000 seconds
+    [Time delta from previous captured frame: 1.001151000 seconds]
+    [Time delta from previous displayed frame: 1.001151000 seconds]
+    [Time since reference or first frame: 3.002392000 seconds]
+    Frame Number: 4
+    Frame Length: 213 bytes (1704 bits)
+    Capture Length: 213 bytes (1704 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:udp:ssdp]
+Ethernet II, Src: Tp-LinkT_3b:92:73 (d0:37:45:3b:92:73), Dst: IPv4mcast_7f:ff:fa (01:00:5e:7f:ff:fa)
+    Destination: IPv4mcast_7f:ff:fa (01:00:5e:7f:ff:fa)
+        Address: IPv4mcast_7f:ff:fa (01:00:5e:7f:ff:fa)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...1 .... .... .... .... = IG bit: Group address (multicast/broadcast)
+    Source: Tp-LinkT_3b:92:73 (d0:37:45:3b:92:73)
+        Address: Tp-LinkT_3b:92:73 (d0:37:45:3b:92:73)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 10.1.1.12, Dst: 239.255.255.250
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+        0000 00.. = Differentiated Services Codepoint: Default (0)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 199
+    Identification: 0x6542 (25922)
+    Flags: 0x4000, Don't fragment
+        0... .... .... .... = Reserved bit: Not set
+        .1.. .... .... .... = Don't fragment: Set
+        ..0. .... .... .... = More fragments: Not set
+        ...0 0000 0000 0000 = Fragment offset: 0
+    Time to live: 1
+    Protocol: UDP (17)
+    Header checksum: 0x18dd [validation disabled]
+    [Header checksum status: Unverified]
+    Source: 10.1.1.12
+    Destination: 239.255.255.250
+User Datagram Protocol, Src Port: 50433, Dst Port: 1900
+    Source Port: 50433
+    Destination Port: 1900
+    Length: 179
+    Checksum: 0xfbcb [unverified]
+    [Checksum Status: Unverified]
+    [Stream index: 0]
+Simple Service Discovery Protocol
+    M-SEARCH * HTTP/1.1\r\n
+        [Expert Info (Chat/Sequence): M-SEARCH * HTTP/1.1\r\n]
+            [M-SEARCH * HTTP/1.1\r\n]
+            [Severity level: Chat]
+            [Group: Sequence]
+        Request Method: M-SEARCH
+        Request URI: *
+        Request Version: HTTP/1.1
+    HOST: 239.255.255.250:1900\r\n
+    MAN: "ssdp:discover"\r\n
+    MX: 1\r\n
+    ST: urn:dial-multiscreen-org:service:dial:1\r\n
+    USER-AGENT: Google Chrome/86.0.4240.75 Linux\r\n
+    \r\n
+    [Full request URI: http://239.255.255.250:1900*]
+    [HTTP request 4/4]
+    [Prev request in frame: 3]
+
